@@ -4,9 +4,9 @@ def find_max_min(li):
     for i in range(0,len(li)):
         if(li[i] > most):
             most = li[i]
-    for i in range(0,len[li]):
-        if(li[i] < least):
-            least = li[i]
+    for j in range(0,len(li)):
+        if(li[j] < least):
+            least = li[j]
     if most == least:
         return [len(li)]
     else:
